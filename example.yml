@@ -1,0 +1,11 @@
+in:
+  type: file
+  path_prefix: spec/support/html/
+  parser:
+    type: html
+    schema:
+      - {name: name, xpath: '//table[@class="table1"]/tr/td[1]', type: string}
+      - {name: amount, xpath: '//table[@class="table1"]/tr/td[2]', type: long}
+      - {name: description, xpath: '//table[@class="table1"]/tr/td[3]', type: string}
+out:
+  type: stdout

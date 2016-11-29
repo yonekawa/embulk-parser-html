@@ -1,0 +1,61 @@
+PATH
+  remote: .
+  specs:
+    embulk-parser-html (0.1.0)
+      nokogiri (~> 1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    diff-lcs (1.2.5)
+    embulk (0.8.15-java)
+      bundler (>= 1.10.6)
+      liquid (~> 3.0.6)
+      msgpack (~> 0.7.3)
+      rjack-icu (~> 4.54.1.1)
+    ffi (1.9.14-java)
+    liquid (3.0.6)
+    method_source (0.8.2)
+    msgpack (0.7.6-java)
+    nokogiri (1.6.8.1-java)
+    pry (0.10.4-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    rake (11.3.0)
+    rjack-icu (4.54.1.1-java)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    slop (3.6.0)
+    spoon (0.0.6)
+      ffi
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  bundler (>= 1.10.6)
+  embulk (>= 0.8.14)
+  embulk-parser-html!
+  pry (~> 0.10)
+  pry-nav (~> 0.2)
+  rake (>= 10.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   1.13.6
