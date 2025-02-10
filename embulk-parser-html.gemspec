@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Kenichi Yonekawa']
   spec.summary       = 'HTML parser plugin for Embulk'
   spec.description   = 'Parses HTML files read by other file input plugins.'
-  spec.email         = ['yonekawa@freee.co.jp']
+  spec.email         = ['tcgrim@gmail.com']
   spec.licenses      = ['MIT']
 
   spec.files         = `git ls-files`.split('\n') + Dir['classpath/*.jar']
